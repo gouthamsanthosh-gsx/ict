@@ -1,0 +1,38 @@
+body {
+	background-color: whitesmoke;
+}
+
+.box {
+	border: 1px solid gray;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 100px;
+	padding: 30px;
+	padding-top: 60px;
+	border-radius: 16px;
+	background-color: white;
+	text-align: center;
+}
+
+.box button {
+	background-color: #007aff;
+	color: white;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+	font-weight: bold;
+}
+
+.box input {
+	background-color: white;
+	padding: 10px;
+	border-radius: 16px;
+	border: 1px solid gray;
+}
+
+.box a {
+	text-decoration: none;
+	color: #007aff;
+}
