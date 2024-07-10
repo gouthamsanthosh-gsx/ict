@@ -23,6 +23,9 @@ const Navbar = () => {
 			<Link to={'/sb'} style={{textDecoration:'none', color:'white'}}>StateBasics</Link>
 		  </Button>
 		  <Button>
+			<Link to={'/counter'} style={{textDecoration:'none', color:'white'}}>Counter</Link>
+		  </Button>
+		  <Button>
 			<Link to={'/'} style={{textDecoration:'none', color:'white'}}>Logout</Link>
 		  </Button>
         </Toolbar>
