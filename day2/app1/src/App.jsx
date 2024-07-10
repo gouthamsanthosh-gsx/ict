@@ -5,6 +5,7 @@ import Registration from './components/Registration'
 import Tabs from './components/Tabs'
 import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
+import StateBasics from './components/StateBasics'
 
 function App() {
 	const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
 				<Route path='/' element={<First/>}/>
 				<Route path='/reg' element={<Registration/>}/>
 				<Route path='/tabs' element={<Tabs/>}/>
+				<Route path='/sb' element={<StateBasics/>}/>
 			</Routes>
 		</>
 	)

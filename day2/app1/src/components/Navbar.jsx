@@ -20,6 +20,9 @@ const Navbar = () => {
 			<Link to={'/tabs'} style={{textDecoration:'none', color:'white'}}>Tables</Link>
 		  </Button>
 		  <Button>
+			<Link to={'/sb'} style={{textDecoration:'none', color:'white'}}>StateBasics</Link>
+		  </Button>
+		  <Button>
 			<Link to={'/'} style={{textDecoration:'none', color:'white'}}>Logout</Link>
 		  </Button>
         </Toolbar>
