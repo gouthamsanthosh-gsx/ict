@@ -7,9 +7,10 @@ const Navbar = () => {
 	  <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" sx={{flex:1}}>
+          <Typography variant="h6">
             My App
           </Typography>
+		  <div style={{flex:1}}></div>
           <Button>
 			<Link to={'/'} style={{textDecoration:'none', color:'white'}}>Login</Link>
 		  </Button>
@@ -24,6 +25,9 @@ const Navbar = () => {
 		  </Button>
 		  <Button>
 			<Link to={'/counter'} style={{textDecoration:'none', color:'white'}}>Counter</Link>
+		  </Button>
+		  <Button>
+			<Link to={'/test'} style={{textDecoration:'none', color:'white'}}>Test</Link>
 		  </Button>
 		  <Button>
 			<Link to={'/'} style={{textDecoration:'none', color:'white'}}>Logout</Link>
