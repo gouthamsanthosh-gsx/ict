@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
 	<div>
 	  <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" style={{background:'#00a152'}}>
         <Toolbar>
           <Typography variant="h6" component="div">
             Blog App
@@ -16,7 +16,7 @@ const NavBar = () => {
 			  <Button color='inherit'>Home</Button>
 		  	</Link>
 		  	<Link to={'/add'} style={{textDecoration:'none', color:'#FFFFFF'}}>
-			  <Button color='inherit'>Add Blog links</Button>
+			  <Button color='inherit'>Add Blog</Button>
 		  	</Link>
         </Toolbar>
       </AppBar>
