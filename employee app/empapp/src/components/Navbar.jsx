@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-	<div>
+	
+  <div>
 	  <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" style={{ background:'#FFFFFF',color:'#000000' }}>
         <Toolbar>
@@ -12,17 +13,18 @@ const Navbar = () => {
             Employee App
           </Typography>
 		  <div style={{ flexGrow:1 }}></div>
-          <Link to={'/'} style={{textDecoration:'none', color:'#000000'}}>
-			<Button color='inherit'>View</Button>
+      <Link to={'/'} style={{textDecoration:'none', color:'#000000'}}>
+			  <Button color='inherit'>View</Button>
 		  </Link>
 		  <Link to={'/add'} style={{textDecoration:'none', color:'#000000'}}>
-			<Button color='inherit'>Add</Button>
+			  <Button color='inherit'>Add</Button>
 		  </Link>
         </Toolbar>
       </AppBar>
     </Box>
 	<br /><br />
 	</div>
+
   )
 }
 
